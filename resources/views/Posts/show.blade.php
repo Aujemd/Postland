@@ -16,13 +16,14 @@
             <h5 class="card-title">{{$post->title}}</h5>
             <p class="card-text">{{$post->content}}</p>
             <p class="card-text"><small class="text-muted">Last Updated {{$post->updated_at}}</small></p>
-            
+
+            @if (Auth::id() === $post->user_id)
             <div class="d-flex justify-content-around flex-wrap">
               <!-- Button trigger modal -->
               <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModalLong">
                 Modify
               </button>
-  
+          
               <!-- Modal -->
               <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
@@ -82,8 +83,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-
+            </div>                    
+            @endif
           </div>
 
         </div>
