@@ -10,10 +10,10 @@
             <div class="d-flex justify-content-around flex-wrap m-5">
                 <div class="row w-100">
                     <div class="col-sm-6">
-                        <a class="btn btn-lg btn-primary text-white btn-block m-2"><h3 class=""><i class="fas fa-sign-in-alt"></i> Login</h3></a>
+                        <a class="btn btn-lg btn-primary text-white btn-block m-2" href="{{config('app.url')}}/login"><h3 class=""><i class="fas fa-sign-in-alt"></i> Login</h3></a>
                     </div>
                     <div class="col-sm-6">
-                        <a class="btn btn-lg btn-primary text-white btn-block m-2"><h3 class=""><i class="fas fa-users"></i> Sign Up</h3></a>
+                        <a class="btn btn-lg btn-primary text-white btn-block m-2" href="{{config('app.url')}}/register"><h3 class=""><i class="fas fa-users"></i> Sign Up</h3></a>
                     </div>
                   </div>
             </div>
