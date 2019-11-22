@@ -1,4 +1,17 @@
-.rojo{
-    color: red;
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
+html, body{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.banner{
+    background-image: linear-gradient(to bottom right, #60D1FF, #CB94FF);
+}
