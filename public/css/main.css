@@ -9,9 +9,14 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
 
 }
 
 .banner{
     background-image: linear-gradient(to bottom right, #60D1FF, #CB94FF);
+}
+
+.login-div_shadow{
+    background-color: #CB94FF;
 }
